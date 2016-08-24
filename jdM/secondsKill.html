@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>掌上秒杀</title>
+</head>
+<style>
+    .box{
+        min-width: 300px;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    .sk_icon{
+        background: url("images/seckill-icon.png") no-repeat;
+        background-size: 16px 20px;
+        width: 16px;
+        height: 20px;
+        float: left;
+        margin-left: 8px;
+        margin-top: 6px;
+    }
+
+    .sk_name{
+        font-size: 15px;
+        margin-left: 8px;
+        margin-top: 6px;
+        float: left;
+        font-weight: bold;
+        color: #d8505c;
+    }
+
+    .sk_time{
+        float: left;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+
+    .num{
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+        text-align: center;
+        background: #333333;
+        color: #fff;
+        float: left;
+        display: block;
+        margin-left: 3px;
+    }
+
+    .str{
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+        text-align: center;
+        color: #333;
+        float: left;
+        display: block;
+        margin-left: 3px;
+    }
+
+    .more{
+        float: right;
+    }
+    
+    .more a{
+        text-decoration: none;
+        margin-right: 10px;
+        line-height: 32px;
+        font-size: 14px;
+        color: #333333;
+        margin-top: 6px;
+    }
+
+    .product_box{
+        width: 100%;
+    }
+
+    .clearfix{
+        width: 100%;
+    }
+
+    .product_box .clearfix ul{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .product_box .clearfix ul li{
+        width: 33.333%;
+        float: left;
+    }
+</style>
+<body>
+<section class="box">
+    <span class="sk_icon"></span>
+    <div class="sk_name">掌上秒杀</div>
+    <div class="sk_time">
+            <span class="num">0</span>
+            <span class="num">0</span>
+            <span class="str">:</span>
+            <span class="num">0</span>
+            <span class="num">0</span>
+            <span class="str">:</span>
+            <span class="num">0</span>
+            <span class="num">0</span>
+    </div>
+    <div class="more">
+        <a href="#">更多</a>
+    </div>
+
+    <div class="product_box">
+        <ul class="clearfix">
+            <li>
+                <a href="">
+                    <div class="img">
+                        <img src="images/detail01.jpg">
+                    </div>
+                    <p class="now_price">&yen:20</p>
+                    <p class="old_price">&yen:25</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
